@@ -1,0 +1,156 @@
+body {
+    background-color: #e4e6eb;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        color: #071c4d !important;
+
+        &.active {
+            font-weight: bold !important;
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+    margin-right: -8px !important;
+    height: 70px;
+    border-radius: 0px;
+}
+
+.btn-login {
+    background-color: #071c4d;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #1c3d8b;
+        color: #ffffff;
+    }
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('/frontend/images/header-img-beach.jpg');
+    background-size: cover;
+
+    h1,
+    p {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #ee9a5a;
+            color: #ffffff;
+        }
+    }
+}
+
+// Statistics
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 18px;
+        padding-left: 40px;
+        background-color: #ffffff;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// Popular
+.section-popular {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2,
+        p {
+            color: #ffffff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font: 18px;
+        }
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #000;
+            color: #ffffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .travel-location {
+            font-size: 26px;
+            color: #ffffff;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: #ff9e53;
+                color: #ffffff;
+
+                &.hover {
+                    background-color: #f8ae76;
+                    color: #ffffff; 
+                }
+            }
+        }
+    }
+}
