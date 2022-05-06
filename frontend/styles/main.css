@@ -259,4 +259,123 @@ header .btn-get-started:hover {
   font-size: 18px;
   color: #6e6e6e;
 }
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .features {
+  margin-top: 30px;
+}
+
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .features .features-image {
+  float: left;
+  width: 45px;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100% !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .card-right {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .card-right h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-right th, .section-details-content .card-right td {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .join-container a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-details-content .join-container .btn-join-now {
+  width: 100%;
+  background-color: #ff9e53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .join-container .btn-join-now:hover {
+  background-color: #f8ae76;
+  color: #fff;
+  border-radius: 0;
+}
 /*# sourceMappingURL=main.css.map */
