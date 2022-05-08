@@ -291,6 +291,7 @@ header {
 .section-details-content {
     margin-top: -210px;
     min-height: 100vh;
+
     .breadcrumb {
         padding: 0;
         margin-bottom: 30px;
@@ -320,6 +321,104 @@ header {
             color: #b1b1b1;
         }
 
+        .trip-information {
+            th {
+                font-weight: 300;
+                font-size: 18px;
+                color: #071C4D;
+            }
+
+            td {
+                font-weight: 300;
+                font-size: 18px;
+                color: #b1b1b1;
+            }
+
+            .text-total {
+                .text-blue {
+                    color: #071c4d;
+                    font-weight: bold;
+                }
+
+                .text-orange {
+                    color: #FF9E53;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .payment-instruction {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    font-size: 18px;
+                    color: #071C4D;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    p {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #071C4D;
+                    }
+                }
+            }
+
+            .bank-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #071c4d;
+        }
+
+        .disclaimer {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+
+            .input-group-append {
+                .btn {
+                    padding-right: 30px;
+                    border-left: 0;
+                }
+            }
+        }
+
+        .btn-add-now {
+            background-color: #071C4D;
+            color: #ffffff;
+
+            &:hover {
+                background-color: #1c3d8b;
+                color: #fff;
+            }
+        }
         .features {
             margin-top: 30px;
 
@@ -374,7 +473,8 @@ header {
             font-size: 20px;
         }
 
-        th, td {
+        th,
+        td {
             font-size: 18px;
             padding-bottom: 10px;
         }
@@ -386,6 +486,7 @@ header {
             height: 40px;
         }
     }
+
     .join-container {
         margin-top: -16px;
 
@@ -393,6 +494,7 @@ header {
             font-size: 20px;
             font-weight: bold;
         }
+
         .btn-join-now {
             width: 100%;
             background-color: #ff9e53;
