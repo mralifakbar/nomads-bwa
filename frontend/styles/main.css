@@ -466,4 +466,39 @@ header .btn-get-started:hover {
   color: #fff;
   border-radius: 0;
 }
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success img {
+  height: 266px;
+  width: 266px;
+  margin-bottom: 12px;
+}
+
+.section-success h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.section-success p {
+  font-size: 18px;
+  margin-top: 6px;
+  font-weight: 300;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home {
+  background-color: #071c4d;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.section-success .btn-home:hover {
+  background-color: #1c3d8b;
+  -webkit-columns: #fff;
+          columns: #fff;
+}
 /*# sourceMappingURL=main.css.map */

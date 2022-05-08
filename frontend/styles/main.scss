@@ -510,3 +510,39 @@ header {
     }
 
 }
+
+// Success Page
+
+.section-success {
+    height: 90vh;
+
+    img {
+        height: 266px;
+        width: 266px;
+        margin-bottom: 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 6px;
+        font-weight: 300;
+        color: #b1b1b1;
+    }
+
+    .btn-home {
+        background-color: #071c4d;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: #1c3d8b;
+            columns: #fff;
+        }
+    }
+}
