@@ -2,6 +2,9 @@
 
 Nomads is a tour package booking website that makes it easy for travelers to travel in groups.
 
+Live Website: https://mralifakbar.github.io/nomads-bwa-frontend/
+
+
 Preview:
 ![Home Page](https://i.ibb.co/h2rvsTW/Home-Page.png)
 ![Package Details Page](https://i.ibb.co/L12gzcm/Details.png)
